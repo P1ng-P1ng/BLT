@@ -16,3 +16,12 @@ This powershell script will do the following:
 
 
 You can run this as a scheduled task
+
+
+
+
+##PCAP analyzer
+Sample usage: 
+- python pcap.py pcap.pcap --src-ip 208.50.77.134 --dst-ip 192.168.3.131
+- python pcap.py smallflows.pcap --flows
+- - python pcap.py smallflows.pcap --ip
